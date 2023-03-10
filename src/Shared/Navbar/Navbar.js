@@ -13,11 +13,14 @@ const Navbar = () => {
       </li>
 
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link to="/resume">Resume</Link>
       </li>
-  
-
-
+      <li>
+        <Link to="/About">About</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact</Link>
+      </li>
     </React.Fragment>
   );
   return (
